@@ -14,7 +14,7 @@ let questions = ['Who was the first American woman in space?','True or false: 50
 
 let correctAnswers = ['Sally Ride','True',40,'Trajectory',3];
 
-let candidateAnswers = []; 
+let candidateAnswers = [];  
 
 let noofcorrectAnswers = 0;
 
