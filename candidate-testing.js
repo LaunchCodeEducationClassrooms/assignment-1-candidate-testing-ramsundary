@@ -35,7 +35,7 @@ function askQuestion() {
   candidateAnswers.push(candidateAnswer.toUpperCase());
   
   console.log("Correct Ansawer: " + correctAnswers[i] ); 
-  console.log(" ");
+  console.log(" "); 
   }
 }
 
