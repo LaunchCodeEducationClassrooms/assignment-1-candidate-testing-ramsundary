@@ -14,7 +14,7 @@ let questions = ['Who was the first American woman in space?','True or false: 50
 
 let correctAnswers = ['Sally Ride','True',40,'Trajectory',3];
 
-let candidateAnswers = [];
+let candidateAnswers = []; 
 
 let noofcorrectAnswers = 0;
 
@@ -61,7 +61,7 @@ function gradeQuiz(candidateAnswers) {
 
   console.log('>>> Overall Grade: ' + grade + '% (' + noofcorrectAnswers + ' of ' + questions.length + ' responses correct) <<<')
 
-  if (grade > 60){
+  if (grade > 70){
     console.log('>>> Status: PASS <<<')
   } else {
     console.log('>>> Status: FAILED <<<');
